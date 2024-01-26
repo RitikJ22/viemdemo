@@ -42,7 +42,8 @@ export default function WalletButton() {
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg"
           alt="MetaMask Fox"
-          style={{ width: "25px", height: "25px" }}
+          width={25}
+          height={25}
         />
         <h1 className="mx-auto">Connect Wallet</h1>
       </button>

@@ -14,7 +14,7 @@ export function ConnectWalletClient() {
         throw new Error(errorMessage);
     }
     
-    // Delcalre a Wallet Client
+    // Declare a Wallet Client
     const walletClient = createWalletClient({
         chain: polygonMumbai,
         transport: transport,
@@ -33,7 +33,7 @@ export function ConnectPublicClient() {
         throw new Error(errorMessage);
     }
     
-    // Delcare a Public Client
+    //Declare a Public Client
     const publicClient = createPublicClient({
         chain: polygonMumbai,
         transport: transport,

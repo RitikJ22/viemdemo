@@ -16,7 +16,7 @@ export default function SendButton() {
            // account, to and value
            const hash = await walletClient.sendTransaction({
               account: address,
-              to: "Account_Address",
+              to: "0x78AB1e3DaB9A53947690483Dda5563f0C17b21f6",
               value: parseEther("0.001"), // send 0.001 matic
             });
             // Display the transaction hash in an alert
